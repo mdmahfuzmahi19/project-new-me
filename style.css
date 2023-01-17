@@ -1,41 +1,181 @@
 * {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}  
-.header{
-   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.bannar{
-    display: flex;
+/* header section */
+.header {
+    background-image: url(images/banner/banner3.png);
+    background-position: bottom right, left;
+    width: 1600px;
+    height: 808px;
+}
+
+.div-text {
+    text-align: right;
+    padding: 50px 200px;
     align-items: center;
-    margin: 0 200px;
-    padding-bottom: 50px;
-    background: url(images/banner/banner3.png);
 }
+
 .bannar-title {
     font-weight: 700;
-    font-size: 85px;
-    color: #181818;
-    margin-bottom: 15px;
-    /* text-align: right; */
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+
+    color: #FFFFFF;
 }
 
 .bannar-des {
-    font-weight: 400;
-    font-size: 18px;
-    color: #757575;
+    font-weight: 400px;
+    font-size: 25px;
+    line-height: 26px;
+    color: #FFFFFF;
     margin-bottom: 15px;
 }
-.mid-section{
-    margin: 0 200px;
-    display: flex;
+
+.buttom {
+    width: 150px;
+    height: 64px;
+    color: rgb(0, 159, 227);
+    background-color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 15px;
 }
-.mid-div{
+
+/* mid-sectiom */
+.mid-section {
+    padding: 0 200px;
     display: flex;
+    align-items: center;
 }
-.mid-down-section{
-    display: flex;
-    margin: 50px 200px;
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.section-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.section-ul {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* my plans section */
+.my-plans {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
     text-align: center;
-    gap: 10px;
+}
+
+.section-icon {
+    display: flex;
+    gap: 50px;
+    padding: 0 200px 0 240px;
+    text-align: center;
+    align-items: center;
+}
+
+.my-plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    text-align: center;
+}
+
+.my-plan-des {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* this is the box section */
+.section-box {
+    padding: 70px 200px;
+}
+
+.image-box {
+    background-image: url(images/gradient1.png), url(images/watch.png);
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+}
+
+.box-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fefefe;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+/* This is the footer section  */
+.section-footer {
+    display: flex;
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+    border-radius: 10px;
+}
+
+.footer-des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    text-align: left;
+}
+.future-email{
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.footer-title{
+    padding-top: 60px;
+    padding-right: 431px;
+    padding-left: 50px;
+    color: #FFFFFF;
+}
+.footer-form{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding-right: 431px;
+    padding-left: 50px;
+}
+.footer-button{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    border: 0;
+    width: 150px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    background-color: #00b7ff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 15px;
 }
